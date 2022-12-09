@@ -226,5 +226,5 @@ var md5 = (function () {
         return rawHMACMD5(key, string);
     }
 
-    return { md5: md5 };
+    return md5;
 })();
